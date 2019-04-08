@@ -1,7 +1,10 @@
 /**
- * Returns number of words in the argument
- * seperated by a space.
+ * Returns number of words in the argument supplied.
+ * Words are seperated by a space.
  */
-export count = (words) = {
+
+const count = words => {
   return words ? words.split(' ').length : 0;
-}
+};
+
+exports.count = count;
